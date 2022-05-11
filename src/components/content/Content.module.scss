@@ -1,0 +1,9 @@
+@import "../../styles/vars";
+
+.content {
+	padding: 40px 0;
+	margin-top: 64px;
+	background: $grayDark;
+	min-height: calc(100vh - 64px);
+	overflow: hidden;
+}

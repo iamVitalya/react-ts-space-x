@@ -1,0 +1,13 @@
+@import "../../styles/vars";
+
+.title {
+	padding: 0;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+
+	.ant-page-header-heading-title {
+		color: $text;
+		font-size: 25px;
+	}
+}

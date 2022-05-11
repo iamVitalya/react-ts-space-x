@@ -1,0 +1,68 @@
+@import "vars";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  color: $text;
+}
+
+*:before,
+*:after {
+  background-repeat: no-repeat;
+}
+
+#root {
+  min-height: 100%;
+}
+
+.ant-layout {
+  min-height: 100%;
+}
+
+.react-draggable-transparent-selection {
+  cursor: default !important;
+
+  * {
+    cursor: default !important;
+  }
+}
+
+.ant-statistic-title, h2, h3 {
+  color: $text;
+}
+
+h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.ant-divider-with-text-left {
+  &:before {
+    display: none;
+  }
+
+  .ant-divider-inner-text {
+    padding-left: 0;
+  }
+}
+
+.ant-image-img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.gray {
+  color: #989898;
+}
+
+.ant-modal-content, .ant-message-notice-content {
+  background-color: $grayDark !important;
+  border: 1px solid $border !important;
+  color: #fff !important;
+}
+
+.ant-modal-confirm-title {
+  color: $text !important;
+}
